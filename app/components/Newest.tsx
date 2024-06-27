@@ -46,6 +46,7 @@ export default async function Newest() {
               slug={product.slug}
               name={product.name}
               categoryName={product.categoryName}
+              key={product._id}
               price={product.price}
             />
           ))}

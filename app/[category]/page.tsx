@@ -56,6 +56,7 @@ export default async function CategoryPage({
               slug={product.slug}
               name={product.name}
               categoryName={product.categoryName}
+              key={product._id}
               price={product.price}
             />
           ))}
